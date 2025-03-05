@@ -1118,32 +1118,9 @@ function changeLanguage(lang) {
         document.getElementById('game1-title').innerText = translations[lang].game1Title;
         document.getElementById('game1-button').innerText = translations[lang].game1Button;
 
-        document.getElementById('game2-title').innerText = translations[lang].game2Title;
-        document.getElementById('game2-button').innerText = translations[lang].game2Button;
-
-        document.getElementById('game3-title').innerText = translations[lang].game3Title;
-        document.getElementById('game3-button').innerText = translations[lang].game3Button;
-
-        document.getElementById('game4-title').innerText = translations[lang].game4Title;
-        document.getElementById('game4-button').innerText = translations[lang].game4Button;
-
-        document.getElementById('game5-title').innerText = translations[lang].game5Title;
-        document.getElementById('game5-button').innerText = translations[lang].game5Button;
 
         document.getElementById('game6-title').innerText = translations[lang].game6Title;
         document.getElementById('game6-button').innerText = translations[lang].game6Button;
-
-        document.getElementById('game7-title').innerText = translations[lang].game7Title;
-        document.getElementById('game7-button').innerText = translations[lang].game7Button;
-
-        document.getElementById('game8-title').innerText = translations[lang].game8Title;
-        document.getElementById('game8-button').innerText = translations[lang].game8Button;
-
-        document.getElementById('game9-title').innerText = translations[lang].game9Title;
-        document.getElementById('game9-button').innerText = translations[lang].game9Button;
-        
-        document.getElementById('game10-title').innerText = translations[lang].game10Title;
-        document.getElementById('game10-button').innerText = translations[lang].game10Button;
         
 
         // Обновляем текст для кнопок Telegram
@@ -1482,42 +1459,10 @@ function openGame(game) {
         mines: {
             ios: 'mines/index.html',
             other: 'mines/index.html'
-        },
-        royalMines: {
-            ios: 'royal1/index.html',
-            other: 'royal1/index.html'
-        },
-        brawlPirates: {
-            ios: 'brawlpir1/index.html',
-            other: 'brawlpir1/index.html'
-        },
-        penalty: {
-            ios: 'penalty1/index.html',
-            other: 'penalty1/index.html'
-        },
-        bomBucks: {
-            ios: 'bombucks1/index.html',
-            other: 'bombucks1/index.html'
-        },
-        lucky: {
-            ios: 'lucky1/index.html',
-            other: 'lucky1/index.html'
-        },
-        coin: {
-            ios: 'monetka1/index.html',
-            other: 'monetka1/index.html'
-        },
+	},
         aviator: {
             ios: 'avi1/index.html',
             other: 'avi1/index.html'
-        },
-        footballX: {
-            ios: 'footx1/index.html',
-            other: 'footx1/index.html'
-        },
-        minesSpibe: {
-            ios: 'minesspribe1/index.html',
-            other: 'minesspribe1/index.html'
         }
     };
             var url = isIOS ? links[game].ios : links[game].other;
